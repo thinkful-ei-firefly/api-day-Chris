@@ -1,0 +1,26 @@
+Clients and Servers
+
+
+The Relationship between Clients and Servers.
+
+
+
+To write an analogy of what the relationship is between Client and Server we need to examine the relationship between ownership and end-user.
+
+
+Within a client-server relationship it starts with a conversation between machines. That conversation starts with one of two points of contact. Either the Client makes a call to request information, or the Server makes a call to inject information. 
+
+Thinking of it in this way is sort of like going to a restaurant…. When you sit down as the client you are waiting for the waitstaff… (modem, router, ISP) to come over and ask you what you would like… when you order your food you are requesting your waitstaff to present that order in front of you.
+
+In order for your waitstaff to present this she has to go back to the kitchen (The Server) and request the specific items on the menu… If you ordered correctly, and the waitstaff conveyed this information correctly the ticket received will provide the kitchen all of the information required to start fetching the correct items to present the food when requested.
+
+When the kitchen receives the ticket and begins creating your dish, the waitstaff then goes back to the kitchen and receives the food (webpage) on the menu (index.html). Plate presentation, and overall experience is created by the Chef (CSS) and how the dish is cooked…ie.  sauteed, fried, baked, bruleed or grilled is the JavaScript side of your entire experience. Once the food is done the waitstaff is informed and then it is presented in front of you…
+
+This is the best way I can explain it because what we see in front of us on a basic website, or even the biggest of websites like Youtube requires an immense amount of work in the background to make sure you receive the information that you requested.
+
+So the client is the end-user… or in this analogy is the guest. The Mainframe, or Main server can represent the company you are attempting to reach or… in this analogy the restaurant you are eating at… whereas other servers being used to represent as the Chef, Sous Chef, Pastry Chef, and other line cooks who work together to provide you with one concise experience and the delivery system for all of this is your ISP, who is represented as your waitstaff. 
+
+Of course there is so much more that goes into this which includes the ISP Hubs, and trunks, etc. Plus in this day we now use SIP protocols for the handshake between you, the ISP, and the other end through IMS run through a RLS (resource list server)
+I used to work for an ISP so we had to know everything about this before we hit production floor.
+
+
